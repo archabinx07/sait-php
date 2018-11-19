@@ -1,0 +1,151 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+$bgColor: azure;
+
+body {
+  background-color: $bgColor;
+}
+
+.customContainer {
+  width: 70%;
+  margin:auto;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-0 {
+  background-color: #eee;
+}
+
+.bg-1 {
+  background-color: #ccc;
+}
+
+.bg-2 {
+  background-color: #aaa;
+}
+.c-2 {
+  color: #aaa;
+}
+
+.bg-3 {
+  background-color: #777;
+}
+.c-3 {
+  color: #777;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-h {
+  flex-direction: row;
+}
+
+.flex-v {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+
+
+.full-page {
+  height: 100vh;
+}
+
+
+
+.ml-200 {
+  margin-left: 200px;
+}
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.px-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+
+.lh-1 {
+  line-height: 1;
+}
+
+.fz-4 {
+  font-size: 18px;
+}
+
+.fw-bold {
+  font-weight: bold;
+  color: black;
+}
+
+.circular {
+  border-radius: 50%;
+}
+
+.circularTweet {
+  border-radius: 100%;
+}
+
+button {
+  border-radius: 40%;
+  border: 2px solid teal;
+  background-color: transparent;
+  margin-left: 100px;
+}
+
+button span {
+  padding: 10px;
+  color: teal;
+}
+
+.stats {
+  border: 2px solid gray;
+}
+
+.user-details {
+  margin-top: 10px;
+}
+.tweets {
+  margin-top: 10px;
+}
+
+.suggestion {
+  margin-top: 10px;
+  margin-left: 10px;
+}

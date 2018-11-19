@@ -1,0 +1,36 @@
+Day 1
+Learned about PHP variables, strings and ifs statements.
+
+Day 2
+Learned about arrays, built-in functions, functions, inheritance, loops and objects.
+
+Day 3
+Learned about clases and includes using PHP, we also installed Lavarel.
+
+Day 4 
+Started working on twitter project.
+
+Day 5
+Continue working on twitter project. Started working on first assignment.
+
+Day 6 
+Started working with Databases. Database with Raw PHP and Database with Laravel
+
+Day 7
+Worked on Databases UsersAndWhere, RouteParameters, DefaultUsers, BetterYouMightLikeUsers, 
+ManyToMany Relationships and Migrations
+
+Day 8
+Continue working with the twitter project and Authentication. Learned about Cookies..
+
+Day 9
+Learned about creating a profile registration is our twitter project, learned about forms and validation.
+
+Day 10
+Learned about setting up AWS account and how to deploy the twitter project (Unfortunately I didnt get my
+AWS account working) Worked on final assignment, connected the project to the database, made models and 
+controllers.
+
+Day 11
+Learned about Ajax, how to like tweets. Continue working on final assignment, finished creating migrations, 
+worked on forms and validating them.
