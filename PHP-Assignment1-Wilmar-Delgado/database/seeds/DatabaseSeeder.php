@@ -49,6 +49,15 @@ class DatabaseSeeder extends Seeder
             }
 
         }
+
+        foreach (User::all() as $user) {
+            foreach (Post::all() as $post) {
+                $rand = rand(1, 100);
+                if ($rand < 20) {
+                    $user->likedPosts()->attach($post);
+                }
+            }
+        }
     }
 }
 

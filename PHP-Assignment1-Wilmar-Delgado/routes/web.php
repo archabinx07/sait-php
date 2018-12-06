@@ -14,6 +14,7 @@
 Route::get('/', 'PostsController@index');
 Route::get('/demo', 'PostsController@demo');
 Route::get('/contact', 'ContactController@index');
+Route::get('/post/{id}/like', 'PostsController@toggleLike');
 
 Route::get('/profile', 'ProfileController@index');
 Route::post('/profile', 'ProfileController@update');

@@ -5,11 +5,12 @@ body, html {
 
 header {
   background-color: rgb(26,26,27);
+  width:100%;
 }
 
 .header-section {
   height: 45px;
-  width: 100%;
+  // width: 100%;
 }
 
 .flex {
@@ -202,8 +203,11 @@ a {
   margin-left: 10px;
 }
 
+// ************************************************** //
+// ************************************************** //
+
 .view-container {
-  width: 50%;
+  width: 55%;
   margin: auto;
   margin-top: 8px;
 }
@@ -278,8 +282,10 @@ a {
   font-size: 12px;
 }
 
+// ************************************************** //
+// ************************************************** //
+
 .container {
-  /* border: 2px solid white; */
   width: 55%;
   margin: auto;
   margin-top: 20px;
@@ -288,26 +294,14 @@ a {
 
 .main {
   width: 75%;
-  /* display: flex; */
-  /* flex-direction: column; */
   margin-right: 20px;
 }
 
 .bg {
-  // border: 2px solid black;
   margin-left: 40px;
   height: 100%;
   background-color: rgb(26,26,27);
 }
-
-// .first-box {
-//   background: rgb(22,22,23);
-//   overflow-y: auto;
-//   width: 100%;
-//   height: 200px;
-//   border-radius: 5px;
-//   border: 1px solid rgb(52,53,54);
-// }
 
 .circular {
   border-radius: 50%;
@@ -367,7 +361,7 @@ video {
   margin-top: -12px;
 }
 
-.comment-icon {
+.heart-icon {
   color: white;
 }
 
@@ -534,11 +528,16 @@ one-box-container
   .aside {
     visibility: hidden;
    }
-  .header-section {
+  // .header-section {
+  //   visibility: hidden;
+  // }
+  .old-reddit {
     visibility: hidden;
   }
   .view-container {
-    visibility: hidden;
+    width: 60%;
+    margin: auto;
+    margin-top: 8px;
   }
 }
 
@@ -556,49 +555,33 @@ one-box-container
     width: 80%;
     margin: auto;
   }
-  .aside {
-    visibility: hidden;
-   }
 }
 
 @media screen and (max-width: 700px) {
-  html, body {
-    overflow-y: auto;
-  }
   .container { 
     width: 100%;
   }
   .main {
     width: 100%;
   }
-  .aside {
-    visibility: hidden;
-   }
-  //  .halloImage {
-  //   visibility: hidden;
-  // }
   .stories {
     margin-right: -145px;
     margin-top: -12px;
   }
+  .view-container {
+    width: 100%;
+    margin: auto;
+    margin-top: 8px;
+  }
 }
 
 @media screen and (max-width: 650px) {
-  html, body {
-    overflow-y: auto;
-  }
   .container { 
     width: 100%;
   }
   .main {
     width: 100%;
   }
-  .aside {
-    visibility: hidden;
-   }
-  //  .halloImage {
-  //   visibility: hidden;
-  // }
   .stories {
     margin-right: -135px;
     margin-top: -12px;
@@ -606,22 +589,12 @@ one-box-container
 }
 
 @media screen and (max-width: 600px) {
-  html, body {
-    overflow-y: auto;
-  }
   .container { 
     width: 100%;
-    border: 2px solid red;
   }
   .main {
     width: 100%;
   }
-  .aside {
-    visibility: hidden;
-   }
-  //  .halloImage {
-  //   visibility: hidden;
-  // }
   .stories {
     margin-right: -110px;
     margin-top: -12px;
@@ -630,22 +603,12 @@ one-box-container
 
 
 @media screen and (max-width: 550px) {
-  html, body {
-    overflow-y: auto;
-  }
   .container { 
     width: 100%;
-    border: 2px solid rgb(81, 16, 233);
   }
   .main {
     width: 100%;
   }
-  .aside {
-    visibility: hidden;
-   }
-  //  .halloImage {
-  //   visibility: hidden;
-  // }
   .stories {
     margin-right: -100px;
     margin-top: -12px;
@@ -653,22 +616,12 @@ one-box-container
 }
 
 @media screen and (max-width: 500px) {
-  html, body {
-    overflow-y: auto;
-  }
   .container { 
     width: 100%;
-    border: 2px solid rgb(81, 16, 233);
   }
   .main {
     width: 100%;
   }
-  .aside {
-    visibility: hidden;
-   }
-  //  .halloImage {
-  //   visibility: hidden;
-  // }
   .stories {
     margin-right: -85px;
     margin-top: -12px;
@@ -676,25 +629,23 @@ one-box-container
 }
 
 @media screen and (max-width: 459px) {
-  html, body {
-    overflow-y: auto;
-  }
   .container { 
     width: 100%;
-    border: 2px solid rgb(16, 233, 186);
   }
   .main {
     width: 100%;
   }
-  .aside {
-    visibility: hidden;
-   }
-  //  .halloImage {
-  //   visibility: hidden;
-  // }
   .stories {
     margin-right: -60px;
     margin-top: -12px;
+  }
+  .bg {
+    margin-left: 0px;
+    height: 100%;
+    background-color: rgb(26,26,27);
+  }
+  .content {
+    margin-right: 10px;
   }
 }
 

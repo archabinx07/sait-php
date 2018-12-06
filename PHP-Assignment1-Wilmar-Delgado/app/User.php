@@ -28,6 +28,17 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+
+    public function posts() 
+    {
+        return $this->hasMany('App\Models\Post');
+    }
+
+    public function likedPosts() 
+    {
+        return $this->belongsToMany('App\Models\Post');
+    }
+
     public function profile()
     {
         return $this->hasOne('App\Models\User');

@@ -96,6 +96,24 @@ class PostsController extends Controller
     }
     
 
+
+    public function toggleLike($postId)
+    {
+        $user = request()->user();
+
+        if (!$user) {
+            return redirect('/');
+        }
+
+        if ($user->likedPosts->contains($postId)) {
+            $user->likedPosts()->detach($postId);
+        } else {
+            $user->likedPosts()->attach($postId);
+        }
+
+        return redirect()->back(); 
+    }
+
     //*************************************************************//
     //Function For The Website's Summary
     //*************************************************************//
