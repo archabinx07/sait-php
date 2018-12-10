@@ -542,18 +542,50 @@ one-box-container
     width: 100%;
   }
 
-  .aside {
+  .aside,
+  .old-reddit,
+  .icons,
+  .vdiv {
     visibility: hidden;
   }
 
-  .old-reddit {
-    visibility: hidden;
+  .loginBtn {
+    margin-left: -115px;
+  }
+
+  .user-options {
+    margin-left: -60px;
   }
 
   .view-container {
     width: 60%;
     margin: auto;
     margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .loginBtn,
+  .signupBtn {
+    visibility: hidden;
+  }
+
+  .user-options {
+    margin-left: -180px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .dropdown {
+    visibility: hidden;
+  }
+
+  .fa-search {
+    margin-left: -250px;
+  }
+
+  .search {
+    width: 50%;
   }
 }
 
@@ -592,6 +624,10 @@ one-box-container
     margin: auto;
     margin-top: 8px;
   }
+
+  .user-options {
+    margin-left: -150px;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -621,6 +657,14 @@ one-box-container
   .stories {
     margin-right: -110px;
     margin-top: -12px;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .user-options {
+    margin-left: -100px;
   }
 }
 
